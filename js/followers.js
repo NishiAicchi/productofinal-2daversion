@@ -1,16 +1,12 @@
 $(document).ready(function() {
-  console.log(data);
-
-  $back = $('#arrow-back');
-  $username = $('#username');
-  $avatar = $('avatar');
+  
+  // selecionando elementos y declarando variables
+  $username = $('span[data-followers=username]');
+  $adopted = $('#adoptep');
   $followBtn = $('follow-btn');
 
-  // evento que nos regresa a la opcion anterior
- 
-  $back.click(function(e) {
-    // console.log($(this).val());
-    window.location.href = 'profile.html';
-  });
-
+  // mostrando la información de la data
+  console.log(data);
+  console.log($username)
+  
 });
